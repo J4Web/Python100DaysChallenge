@@ -21,9 +21,48 @@
 
 # new_num_char= str(number_it_is)
 
+from unittest import result
+
+
 print(70+int("30"))
 
 print("70"+"100")
 
 
 print(70+float("10.2"))
+
+
+#So we can't do nums%10 in python ? and num/10 ???
+print(70%10)
+
+
+#doing this gives you a floating point number so we have to convert it to an  integer *****************
+print(int(70/10))
+
+
+print(int("80")/float("1.75")*float("1.75"))
+
+
+#** -> gives us power
+
+print(2**2)
+
+#PEMDAS
+
+#() ** */ +-
+
+print(3*3+3/3-3)
+
+print(round(8/3))
+
+# // -> this is called floor division 
+
+print(8 // 3)
+
+result=1
+result/=3
+print(round(result,6))
+
+
+#FSTRING
+print(f"hey here is me {round(result,3)}, here is me and enjoying this learning {3**2}")
